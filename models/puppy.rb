@@ -4,4 +4,7 @@ class Puppy
   def initialize()
    puppy= self.new
    @@all << self 
-   
+   def self.all
+     @@all 
+   end 
+ end 
