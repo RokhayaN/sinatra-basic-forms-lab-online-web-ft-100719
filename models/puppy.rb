@@ -1,7 +1,7 @@
 class Puppy 
   
   attr_accessor :name, :breed, :age
-  @@all=[]
+   @@all=[]
   
   def initialize(name, breed, age)
     @name = name
